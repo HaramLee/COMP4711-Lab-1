@@ -33,7 +33,7 @@ class Student {
     
     //Calculating the average grade 
     function average(){
-        $this = 0;
+        $total = 0;
         foreach ($this->grades as $value){
             $total += $value;
         }
